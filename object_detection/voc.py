@@ -15,4 +15,5 @@ def make_filepath_list(rootpath):
     """
 
     imgpath_template = os.path.join(rootpath, 'JPEGImages', '%s.jpg')
+    annopath_template = os.path.join(rootpath, 'Annotations', '%s.xml')
     
